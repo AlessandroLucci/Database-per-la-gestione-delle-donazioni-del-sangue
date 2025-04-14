@@ -29,4 +29,11 @@ L'analisi del Sistema di Donazione del Sangue, basata su un database e un data w
 La base dati è stata strutturata per mappare fedelmente il flusso operativo della donazione del sangue, articolandosi attorno alle entità chiave: Medico, Donatore, Donazione, Centro di Raccolta, Magazzino, con dettagli specifici per i Test Sangue Intero e Test Infezioni Virali. L'integrità referenziale e l'aderenza alle regole del processo sono assicurate dalle cardinalità definite tra le entità (es. un Medico può non avere donatori (0) o averne molti (N), mentre una Donazione deve avere un solo Donatore (1-1)). Il design è il risultato di un processo iterativo documentato da schemi ER (in versione non ristrutturata e ristrutturata) e da un modello logico, che include ottimizzazioni specifiche come la gestione dedicata delle 'Mail' e una rappresentazione dettagliata delle scorte, fornendo così le fondamenta per il sistema informativo.
 ### Modello Non ristrutturato
 ![image](https://github.com/user-attachments/assets/2b72f657-06de-452f-9a14-294c5d2ec671)
+### Modello Ristrutturato
+Qui riportato lo schema ER dopo un processo di ristrutturazione mirato a ottimizzarne la struttura. Le modifiche chiave rispetto allo schema non ristrutturato includono:
+La creazione di una nuova entità 'Mail', separata da 'Donatore', per una gestione più efficace degli indirizzi.
+L'eliminazione dell'attributo composto 'Scorte Disponibili' nel 'Magazzino', sostituito da un insieme di attributi specifici per ogni tipo di scorta, migliorando la granularità.
+La rimozione dell'entità padre 'Test' nella gerarchia dei test. Essendo la specializzazione Totale ed Esclusiva, gli attributi comuni sono stati migrati direttamente alle entità figlie ('Test Sangue Intero', 'Test Infezioni Virali'), semplificando il modello."
+![image](https://github.com/user-attachments/assets/964c5aa3-f12a-4ed0-942c-4acfc729f5bc)
+
 
