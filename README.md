@@ -2,7 +2,7 @@
 - [Contesto del Progetto](#contesto-del-progetto)
 - [Sommario Esecutivo](#sommario-esecutivo)
 - [Struttura del Database](#struttura-del-database)
-- [Risultati delle Query SQL Chiave](#risultati-delle-query-sql-chiave)
+- [Risultati delle Query SQL](#risultati-delle-query-sql)
 - [Struttura del Datawarehouse](#struttura-del-datawarehouse)
   - [Età](#analisi-olap-età)
   - [Geografia](#analisi-olap-geografia)
