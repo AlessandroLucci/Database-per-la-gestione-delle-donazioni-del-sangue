@@ -10,3 +10,6 @@
 - [Visualizzazione dei Dati (Nazionalità, Gruppi Sanguigni)](#visualizzazione-dei-dati-nazionalità-gruppi-sanguigni)
 - [Raccomandazioni](#raccomandazioni)
 - [Ipotesi e Limitazioni (Eventuali)](#ipotesi-e-limitazioni-eventuali)
+
+ ## Contesto del Progetto
+[Questo progetto si basa sulla creazione, implementazione e analisi di un sistema informativo per la gestione delle donazioni di sangue. L'obiettivo è creare una base dati strutturata per tracciare le informazioni relative a medici, donatori, donazioni, centri di raccolta, magazzini e test associati, al fine di estrarre insight utili per comprendere e ottimizzare il processo di donazione.]
