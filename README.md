@@ -1,7 +1,7 @@
 ## Indice dei Contenuti
 - [Contesto del Progetto](#contesto-del-progetto)
 - [Sommario Esecutivo](#sommario-esecutivo)
-- [Struttura del Database e Cardinalità](#struttura-del-database-e-cardinalità)
+- [Struttura del Database ](#struttura-del-database)
 - [Risultati delle Query SQL Chiave](#risultati-delle-query-sql-chiave)
 - [Analisi OLAP dal Data Warehouse (Età, Geografia)](#analisi-olap-dal-data-warehouse-età-geografia)
 - [Analisi dei Cluster di Donatori (K-means)](#analisi-dei-cluster-di-donatori-k-means)
