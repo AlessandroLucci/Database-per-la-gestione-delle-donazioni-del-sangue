@@ -2,8 +2,6 @@
 - [Contesto del Progetto](#contesto-del-progetto)
 - [Sommario Esecutivo](#sommario-esecutivo)
 - [Struttura del Database](#struttura-del-database)
-  - [Modello Non Ristrutturato](#modello-non-ristrutturato)
-  - [Modello Ristrutturato](#modello-ristrutturato)
 - [Risultati delle Query SQL Chiave](#risultati-delle-query-sql-chiave)
 - [Struttura del Datawarehouse](#struttura-del-datawarehouse)
   - [Età](#analisi-olap-età)
@@ -29,5 +27,6 @@ L'analisi del Sistema di Donazione del Sangue, basata su un database e un data w
 
 ## Struttura del Database
 La base dati è stata strutturata per mappare fedelmente il flusso operativo della donazione del sangue, articolandosi attorno alle entità chiave: Medico, Donatore, Donazione, Centro di Raccolta, Magazzino, con dettagli specifici per i Test Sangue Intero e Test Infezioni Virali. L'integrità referenziale e l'aderenza alle regole del processo sono assicurate dalle cardinalità definite tra le entità (es. un Medico può non avere donatori (0) o averne molti (N), mentre una Donazione deve avere un solo Donatore (1-1)). Il design è il risultato di un processo iterativo documentato da schemi ER (in versione non ristrutturata e ristrutturata) e da un modello logico, che include ottimizzazioni specifiche come la gestione dedicata delle 'Mail' e una rappresentazione dettagliata delle scorte, fornendo così le fondamenta per il sistema informativo.
+### Modello Non ristrutturato
 ![image](https://github.com/user-attachments/assets/2b72f657-06de-452f-9a14-294c5d2ec671)
 
